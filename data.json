@@ -12,7 +12,7 @@
     ]
   },
   "skills": [
-    { "name": "Java", "level": "2 year"  , "isSpecial": true },
+    { "name": "Java", "level": "12 month"  , "isSpecial": true },
     { "name": "PostgreSQL", "level": 85},
     { "name": "Spring Boot", "level": 80 },
     { "name": "REST API", "level": 90 },
@@ -64,3 +64,4 @@
     "github": { "username": "DurbekBackend", "url": "https://github.com/durbekakhmadjanov2009" }
   }
 }
+
