@@ -1,0 +1,66 @@
+{
+  "about": {
+    "text": [
+      "Men Durbek Akhmadjanov, Java backend dasturchiman.",
+      "Tajriba: Telegram botlar, web xizmatlar, delivery tizimlar va tizim integratsiyalari.",
+      "Maqsadim: Sifatli va barqaror backend xizmatlarini yaratish, foydalanuvchilar uchun qulay interfeyslar bilan integratsiya qilish."
+    ],
+    "stats": [
+      { "label": "Tajriba oy", "value": "15" },
+      { "label": "Loyihalar", "value": "20+" },
+      { "label": "Mijoz qoniqishi", "value": "100%" }
+    ]
+  },
+  "skills": [
+    { "name": "Java", "level": "2 year"  , "isSpecial": true },
+    { "name": "PostgreSQL", "level": 85},
+    { "name": "Spring Boot", "level": 80 },
+    { "name": "REST API", "level": 90 },
+    { "name": "Linux & Server", "level": 75 },
+    { "name": "Git & GitHub", "level": 85 },
+    { "name": "Telegram Bot API", "level": 90},
+    { "name": "HTML & CSS", "level": 70 },
+    { "name": "JavaScript", "level": 65 }
+  ],
+  "projects": [
+    {
+      "title": "Deli Food",
+      "description": "Fast-food delivery web va Telegram integratsiyasi.",
+      "technologies": ["Java", "PostgreSQL", "Telegram Bot API"],
+      "image": "./images/deli_food.png",
+      "url": "https://t.me/deli_food_bot",
+      "detailedDescription": "Fast-food buyurtma qilish tizimi. Foydalanuvchi geolokatsiya orqali yaqin oshpazlarni topadi. Admin panel orqali buyurtmalarni boshqarish va to‘lovlarni kuzatish mumkin."
+    },
+    {
+      "title": "Kino Bot",
+      "description": "Telegram bot for movie selection and schedule.",
+      "technologies": ["Java", "Telegram Bot API"],
+      "image": "./images/kino.png",
+      "url": "https://t.me/kino_bot",
+      "detailedDescription": "Foydalanuvchi kino tanlaydi, vaqtini ko‘radi va qaysi kinoteatrda mavjudligini biladi. Admin panel orqali film va vaqtlar boshqariladi."
+    },
+    {
+      "title": "Kursga so'rov bot",
+      "description": "Bot which collects course sign-up requests.",
+      "technologies": ["Java", "PostgreSQL", "Telegram Bot API"],
+      "image": "./images/course_bot.png",
+      "url": "https://t.me/course_request_bot",
+      "detailedDescription": "Kursga yozilmoqchi bo‘lgan foydalanuvchilar ma’lumotlarini yig‘ish va admin panelga yuborish. Ma’lumotlar PostgreSQL bazasida saqlanadi."
+    },
+    {
+      "title": "Login Page",
+      "description": "Authentication UI + backend flow with phone-number login.",
+      "technologies": ["Java", "Spring Boot", "PostgreSQL"],
+      "image": "./images/login_page.png",
+      "url": "#",
+      "detailedDescription": "Mobil ilovalar uchun telefon raqam orqali login tizimi. 2 haftalik vaqtinchalik ruxsat va session management bilan ishlaydi."
+    }
+  ],
+  "contact": {
+    "description": "Mening Telegram orqali bog'lanishim mumkin. Shuningdek, email yoki telefon orqali ham murojaat qilishingiz mumkin.",
+    "telegram": { "username": "@DurbekAhmadjanov", "url": "https://t.me/DurbekAhmadjanov" },
+    "email": "d08082009d@gmail.com",
+    "phone": "+998930738789",
+    "github": { "username": "DurbekBackend", "url": "https://github.com/durbekakhmadjanov2009" }
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DA Logo</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Qorong‘i fon */
+  }
+
+  .logo {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 80px;
+    color: #00ffc8; /* Neon moviy-yorqin rang */
+    text-transform: uppercase;
+    letter-spacing: -5px;
+    position: relative;
+  }
+
+  .logo::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background: #00ffc8;
+    bottom: 0;
+    left: 0;
+    border-radius: 4px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease;
+  }
+
+  .logo:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  .logo span {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .logo:hover span {
+    transform: rotate(-10deg) scale(1.2);
+    color: #ff00ff; /* Hover rang o‘zgarishi */
+  }
+</style>
+</head>
+<body>
+  <div class="logo">
+    <span>D</span><span>A</span>
+  </div>
+</body>
+</html>
